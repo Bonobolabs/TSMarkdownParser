@@ -25,6 +25,7 @@ let package = Package(
         .target(
             name: "TSMarkdownParser",
             dependencies: [],
-            path: "TSMarkdownParser")
+            path: "TSMarkdownParser",
+            publicHeadersPath: ".")
     ]
 )
